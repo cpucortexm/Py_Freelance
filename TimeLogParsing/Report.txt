@@ -1,0 +1,9 @@
+
+        ========================
+
+        Total time spent in TimeLogEnergy.txt 
+        consumed_hrs: 183
+        consumed_mins: 53
+
+        ========================
+        
