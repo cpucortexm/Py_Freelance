@@ -17,53 +17,84 @@ import re
 logger = pylog.get_logger(__name__)
 
 
-# To scrape use mostly regex
-# Highlights , Specifications -> General, Product Details, Additional Features
-# For Highlights find the line with <div class="_3a9CI2">
-# For Specifications -> General, find the line with <div class="flxcaE">General</div>
-# For Specification  -> Product Details, find line with <div class="flxcaE">Product Details</div>
-# For Specification  -> Additional Features, find line with <div class="flxcaE">Additional Features</div>
-
-
 def handle_night_vision(soup):
-    print("In NV")
-    pass
+    logger.info("Parsing Night Vision:")
+    pattern = re.compile("Night Vision Feature")
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here.
+        return True
+    return False
 
 
 def handle_pan(soup):
-    pass
+    logger.info("Parsing Pan:")
+    pattern = re.compile("Pan")
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here.
+        return True
+    return False
 
 
 def handle_wall_mounting(soup):
-    pass
+    logger.info("Parsing Wall mount:")
+    pattern = re.compile("\"Mounting Type\".*?Wall", re.IGNORECASE)  # .*? to get non greedy match or minimum match
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here, instead of 2 steps
+        return True
+    return False
 
 
 def handle_HDD(soup):
-    pass
+    logger.info("Parsing HDD:")
+    pattern = re.compile("\"HDD Available\".*?Yes", re.IGNORECASE)  # .*? to get non greedy match or minimum match
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here, instead of 2 steps
+        return True
+    return False
 
 
 def handle_outdoor(soup):
-    pass
+    logger.info("Parsing Outdoor:")
+    pattern = re.compile("outdoor", re.IGNORECASE)  # .*? to get non greedy match or minimum match
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here, instead of 2 steps
+        return True
+    return False
 
 
 def handle_1080(soup):
-    pass
+    logger.info("Parsing 1080p:")
+    # .*? to get non greedy match or minimum match
+    pattern = re.compile("\"Video Recording Resolution\".*?1080", re.IGNORECASE)
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here, instead of 2 steps
+        return True
+    return False
 
 
 def handle_no_of_channels(soup):
-    pass
+    logger.info("Parsing No of channels:")
+    # .*? to get non greedy match or minimum match
+    pattern = re.compile("\"Number of Channels\".*?2", re.IGNORECASE)
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here, instead of 2 steps
+        return True
+    return False
 
 
 def handle_color_white(soup):
-    pass
+    logger.info("Parsing White color:")
+    # .*? to get non greedy match or minimum match
+    pattern = re.compile("\"Color\".*?White", re.IGNORECASE)
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here, instead of 2 steps
+        return True
+    return False
 
 
 def handle_tilt(soup):
-    pass
+    logger.info("Parsing Tilt:")
+    pattern = re.compile("Tilt", re.IGNORECASE)
+    if result := re.search(pattern, soup.prettify()) is not None:  # Walrus operator is used here.
+        return True
+    return False
 
 
 def handle_default(soup):
-    pass
+    logger.error("Default case , Error key:")
+    return False
 
 
 # Dict table to scrape
@@ -77,30 +108,54 @@ scrape_table_dict = {
     'no-of-channels-2': handle_no_of_channels,
     'color-white': handle_color_white,
     'tilt': handle_tilt
+    # Add below this line new feature
 }
 
 
 def search_scrape_text(soup, features_to_scrape):
     for feature in features_to_scrape:
-        scrape_table_dict.get(feature, handle_default)(soup)
+        # We use Walrus operator than the traditional if (cond) else so as to avoid code bloat
+        if scrape_result := scrape_table_dict.get(feature, handle_default)(soup):
+            continue
+        return False
+    return True
 
 
-def process_page(page, usr_features_to_scrape, link):
+def process_page(page, usr_features_to_scrape):
     soup = BeautifulSoup(page.text, "html.parser")
     # logger.info(soup.prettify()) # print the whole html page info
-    search_scrape_text(soup, usr_features_to_scrape)
+    return search_scrape_text(soup, usr_features_to_scrape)
+
+
+def show_usr_camera_list(usr_camera_list):
+    logger.info("........Suggested cameras links...........")
+    if not usr_camera_list:
+        logger.info("Unfortunately, No cameras match the given user features")
+    for cam in usr_camera_list:
+        logger.info(cam)
 
 
 def extract_all_links(source_links, worker_threads, usr_features_to_scrape):
     # parsed_source = urlparse(source_links)
     # Should be replaced by multi processes or threads.
+    count_cam = 0
+    list_suggest_cameras = []
+
     for link in source_links:
         print(link)
         page = requests.get(link)
         if page.status_code != http.client.OK:
             logger.error(f'Error retrieving {link}: {page}')
-            return []
+            continue   # We move to next Link
         if 'html' not in page.headers['Content-type']:
             logger.info(f'Link {link} is not an HTML page')
-            return []
-        process_page(page, usr_features_to_scrape, link)
+            continue  # We move to next link
+        # We suggest only the first 2 cameras with all the user features satisfied, else whatever the number < 2
+        # Then break
+        if page_result := process_page(page, usr_features_to_scrape):
+            if count_cam == 2:
+                break
+            list_suggest_cameras.append(link)
+            count_cam += 1
+        continue   # It comes here if process_page was False, so move to next link
+    show_usr_camera_list(list_suggest_cameras)

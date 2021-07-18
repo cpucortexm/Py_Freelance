@@ -42,7 +42,7 @@ def getUsrInput():
               ]
 
     # Setting Window
-    window = sg.Window('Select the Camera Features', layout, size=(300, 300))
+    window = sg.Window('Select/Deselect the Camera Features ', layout, size=(400, 400))
 
     usrCamFeatures = {  # Initialise a dictionary with default values for user feature set
         'nightVision': True,  # This dict will be used for web scraping later
@@ -103,7 +103,6 @@ def extract_scraping_links(source_url):
     # soup.find("tags", params) etc cannot be applied to such complex websites and such huge html data
     # Next we are looking for smartUrl keyword followed by non
     # greedy(.*?) double quotes("") to get the exact web links
-
     smartURL = re.findall(r"\"smartUrl\":\".*?\"", soup.prettify())  # is a list
     all_http_links = set()    # To get unique list of links
     for link in smartURL:
