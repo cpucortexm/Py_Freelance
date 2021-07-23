@@ -1,0 +1,178 @@
+23-Jul-21 21:59:21: camera_webscraping.py - DEBUG:main():123 - Start Camera Scrape
+23-Jul-21 21:59:21: camera_webscraping.py - INFO:extract_scraping_links():86 - Extracting links from https://www.flipkart.com/search?q=home%20security%20camera
+23-Jul-21 22:00:41: camera_webscraping.py - DEBUG:main():123 - Start Camera Scrape
+23-Jul-21 22:00:41: camera_webscraping.py - INFO:extract_scraping_links():86 - Extracting links from https://www.flipkart.com/search?q=home%20security%20camera
+23-Jul-21 22:00:44: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/technoview-spy-mini-camera-wireless-portable-hidden-audio-video-1080p-recording-photo-click-motion-detection-night-vision-features-sq11-security/p/itmd98fd2bafac32?pid=HSAFZXYFGDUTJHK5
+23-Jul-21 22:00:44: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/cffted-double-antenna-smart-wi-fi-auto-rotating-via-mobile-night-vision-hd-cctv-wifi-camera-720p-audio-wall-mount-security/p/itm554083258756b?pid=HSAFQFAYBRYPDBHE
+23-Jul-21 22:00:44: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/spy-hub-buttoncamera-black-camera/p/itmeafc2068a55d6?pid=HSAESTS7GCVHYZCC
+23-Jul-21 22:00:44: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/gnexin-2-pcs-security-cctv-false-outdoor-ccd-camera-fake-dummy-waterproof-ir-wireless-blinking-flashing-combo/p/itmc520deb81ddf4?pid=HSAFN8B7NHHNRVEG
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/yk-retail-v380-pro-home-office-ultra-hd-wireless-ip-cctv-camera-security/p/itma1725bb32bc8b?pid=HSAFZGCZHFNFSPVE
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/guruji-mart-gm002zn-spy-camera/p/itm84d99def3363f?pid=HSAEJAFYXYTSY8P7
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/mi-360-1080p-wifi-smart-security-camera/p/itmd4104b42a6e0f?pid=SMSF9YWZVHHNATW5
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/mx-dummy-fake-infrared-sensor-dome-wireless-security-camera-red-led-realistic-looking-cctv-surveillance-made-india-dummy4/p/itmc78ea928c8e2e?pid=HSAFGY46HZZ8RNFQ
+23-Jul-21 22:00:47: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/v-t-i-ip-dual-antenna-wifi-enabled-indoor-security-camera-night-vision-v380-app/p/itmd7eb3d3feb47a?pid=HSAF9WYB9U3VWG6M
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_outdoor():80 - Outdoor needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_1080():94 - 1080p needed: False
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/krushnashry-realistic-look-dummy-security-cctv-bullet-camera-led-light-indication/p/itm9fc33d6ef4a33?pid=HSAFWWY4JHJGTAYW
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/sekyuritibijon-pen-spy-camera/p/itm979e95ff4dccd?pid=HSAFPHZEHSXRENQU
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/v-t-i-v380-mini-wifi-wireless-cctv-home-security-hd-720p-ip-camera-p2p-night-vision-ir-surveillance-camera-supports-up-64gb-sd-card/p/itm33047c5f34567?pid=HSAFCZYX5QJHZS3H
+23-Jul-21 22:00:50: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/mx-dummy-fake-infrared-sensor-black-dome-wireless-security-camera/p/itme0000df5dd2fc?pid=HSAFHKQDHKJ9XSGZ
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/technoview-spy-pen-camera-32gb-supportable-mini-hidden-photo-audio-video-recorder-multifunction-home-security-rechargeable-built-battery-gold-black/p/itm371ea4b3c23db?pid=HSAGYZHJV79TQ4NQ
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/cp-plus-full-hd-4ch-dvr-3-bullet-camera-2-4-megapixel-nightvision-1-dome-seagate-wd-hard-drive-1tb-cctv-cable-3-1-power-supply-bnc-dc-pin-set-kit-security-trusted-purchase-reyansh-enterprises/p/itm6633af9bb492e?pid=HSAFRDD3MNZZAP2V
+23-Jul-21 22:00:53: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:54: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:54: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:54: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:00:54: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:00:54: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/mx-4pcs-infrared-sensor-dome-wireless-security-camera-4dummy3/p/itm235bb380e89a1?pid=HSAFGAZ5MDGZWPWY
+23-Jul-21 22:00:54: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/cffted-luxury-cctv-pen-recording-security-camera/p/itmdef441acc71c0?pid=HSAFG7VAXFYEWEHS
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/cffted-cctv-pen-camera-smart-security/p/itm8f535e02111a1?pid=HSAFF7FACCZWB6ZX
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/cp-plus-2-4mp-full-hd-ir-cosmic-bullet-security-camera/p/itm086c31f4fb59d?pid=HSAF4FEYA5HHSJ6E
+23-Jul-21 22:00:56: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:57: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:57: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/greeneye-technology-hd720p-v-380-ip-camera-wifi-total-wireless-smart-security-ptz-720p/p/itmdfcbd8c2a7bb4?pid=HSAFDQR9ZGHVP2KG
+23-Jul-21 22:00:57: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/technoview-spy-camera-button-hidden-hd-video-audio-photo-taking-recording-5-0-mp-camerasupport-up-32gb-sd-card-mini-portable-device-shape/p/itmc67eb11cd0142?pid=HSAFZY9KUE7ZAGNA
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/smarty-camera-home-office-store-wireless-dome-pan-tilt-2-way-audio-motion-detection-720p-hd-wi-fi-security-surveillance-system-night-vision-support-micro-sd-card-slot-lan-port-easy-remote-access-android-ios-smartphones-tablets-cctv-cameras-indoor-outdoor-use-wifi-stream-live-video-mobile-laptop-4x-digital-zoom-two-way-dual-antenna-monitor-2-way-chat-02/p/itm930c1148ea6fe?pid=HSAFFKYFG9MAWPWZ
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/ezviz-hikvision-c6n-wireless-full-hd-360-view-pan-tilt-indoor-home-camera-night-vision-motion-alert-mobile-256-gb-slot-two-way-audio-sleep-mode-white-security/p/itme41c2cf2f0525?pid=HSAFUHWGBMZQ3GY5
+23-Jul-21 22:00:59: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:00: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:00: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:00: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:00: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/cffted-luxury-cctv-pen-recording-security-camera/p/itm81e1d68edb436?pid=HSAFG7SMPEZKUYWC
+23-Jul-21 22:01:00: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/mx-dummy-fake-bullet-wireless-security-camera-red-light-realistic-looking-infrared-sensor-cctv-surveillance-dummy6/p/itm0755c42b3f545?pid=HSAFG7YM7DGNHNCC
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/mx-security-camera-realistic-looking-infrared-sensor-cctv-surveillance/p/itmddb6419be9831?pid=HSAFG7UMX3MFH5AD
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:02: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:03: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:03: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:03: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/v-t-i-mini-hd-button-dv-spy-camera-popular-cctv-security/p/itmf7d2514be3523?pid=HSAGYM5HKQ2ABMDM
+23-Jul-21 22:01:03: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:03: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:03: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/gle-hidden-spy-bulb-shape-fisheye-360-panoramic-wireless-wifi-1-3-mp-960p-hd-ip-cctv-security-camera-sd-card-slot/p/itm3c43197267ed0?pid=HSAFCNYZCPUC6ZVU
+23-Jul-21 22:01:03: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:05: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:05: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/smarty-wireless-hd-ip-wifi-cctv-indoor-security-camera-stream-live-video-mobile/p/itm648b61950cbb0?pid=HSAFFJWU7GNKMAUB
+23-Jul-21 22:01:05: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:05: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:05: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/handy-trendy-cctv-blinking-led-dummy-fake-security-wall-camera/p/itm850a4642ebac9?pid=HSAFHGZHAXKZKH6Q
+23-Jul-21 22:01:05: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/bhagwati-keycam-spy-camera/p/itm44ad2e0a699c3?pid=HSAEJ9F24HXY4UKH
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/greeneye-technology-hd-plus-spy-pen-camera-dvr-720p-video-recorder-hidden-business-portable-silver-gold-free-one-cap/p/itm3ef3ebcd4b3c1?pid=HSAFEFAZBPGZ8FJM
+23-Jul-21 22:01:06: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:08: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:08: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:08: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:08: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/smarty-ip-cctv-surveillance-camera-720p-wireless-hd-wifi-indoor-security-stream-live-video-mobile/p/itm37466aee674d4?pid=HSAFFJWT2WUYHHHX
+23-Jul-21 22:01:08: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/smitch-static-1080p-wifi-smart-security-camera/p/itmdbcef076ae425?pid=HSAFUKH6TQ5YT4ZC
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/wolblix-fake-dummy-security-cctv-dome-camera-realistic-look-recording-flashing-red-led-light-indoor-outdoor-use-homes-business/p/itma39dc3094f6b0?pid=HSAFFFTUTRMAYJGR
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/cffted-double-antenna-auto-rotating-night-vision-mobile-hd-cctv-wifi-camera-720p-audio-smart-net-live-streaming-video-android-ios-security/p/itm9aa14606e1e44?pid=HSAFJVZFUSFYJMPH
+23-Jul-21 22:01:09: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:11: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:11: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:11: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:11: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/smitch-360deg-1080p-wifi-smart-security-camera/p/itm50ff2dfde7bac?pid=HSAFUKH6E638BE5D
+23-Jul-21 22:01:11: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/tp-link-tapo-c200-pan-tilt-wi-fi-home-security-camera/p/itm0bd4bae8a8337?pid=HSAFRYWYHF7QVHNG
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/tp-link-tapo-c100-ip-wi-fi-home-security-camera/p/itm9ee6ac0379424?pid=HSAFUR9VH7PMKA6Z
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:process_link():241 - processing link: http://dl.flipkart.com/dl/ihp-luxury-cctv-pen-recording-security-camera/p/itmd018e5f415997?pid=HSAFAPY5NBJ6T4QA
+23-Jul-21 22:01:12: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:14: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:14: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:14: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:14: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:01:14: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:15: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:15: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:handle_wall_mounting():52 - Wall mount needed: True
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:handle_HDD():66 - HDD needed: True
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:handle_night_vision():24 - Night Vision needed: True
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:handle_outdoor():80 - Outdoor needed: True
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:handle_pan():38 - Pan needed: True
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:handle_1080():94 - 1080p needed: False
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:extract_all_links():268 - Result: None
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:show_usr_camera_list():191 - ..........................................
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:show_usr_camera_list():192 - |                                        |
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:show_usr_camera_list():193 - ........Suggested cameras links...........
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:show_usr_camera_list():194 - |                                        |
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:show_usr_camera_list():195 - ..........................................
+23-Jul-21 22:01:16: web_link_crawler.py - INFO:show_usr_camera_list():197 - Unfortunately, No cameras match the given user features

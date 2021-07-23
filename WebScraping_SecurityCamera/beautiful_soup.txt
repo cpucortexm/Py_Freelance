@@ -1,0 +1,29 @@
+Once you have the object called soup of beautiful soup then
+1.) soup.get_text() gets the complete text. Use .replace() string method or
+other python techniques to eliminate \n
+
+2.) if html  has [<img src="/static/dionysus.jpg"/>, <img src="/static/grapes.png"/>]
+To get list of all instances of a particular tag say e.g. <img> tag in html
+soup.find_all("img") ===> will make a list of tags with img
+image1,image2 = soup.find_all("img")
+
+3.) get name of tag using .name
+i.e. image1.name() will print 'img'
+
+4.) tags also have attributes e.g. 'src' is an attribute
+To get the value of attribute, use it like key , value pair
+image1["src"] will give '/static/dionysus.jpg'
+
+5.) Certain tags can be directly accessed
+soup.title
+To get string in the title tag
+soup.title.string
+
+If beautiful soup does not work for complicated and disorganised html then use
+.find() and regex
+
+
+6.) You can also pass regex to soup .find() and .find_all() methods.
+e.g. soup.find_all(re.compile('^h(2|3)'))
+
+

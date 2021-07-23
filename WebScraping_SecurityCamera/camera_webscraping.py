@@ -74,13 +74,7 @@ def getUsrInput():
             break
 
     window.close()
-    usr_features_to_scrape = []
-    for key, value in usrCamFeatures.items():
-        print(key, ':', value)
-        if not value:
-            continue
-        usr_features_to_scrape.append(key)
-    return usr_features_to_scrape
+    return usrCamFeatures
 
 
 def extract_scraping_links(source_url):
@@ -126,11 +120,11 @@ def main():
                         default=URL)
     args = parser.parse_args()
     usr_features_to_scrape = getUsrInput()
-    logger.debug('This is a main debug message')
+    logger.debug('Start Camera Scrape')
     # Start extracting the links to scrape
     links_to_scrape = extract_scraping_links(args.u)
     # Now scrape all the links
-    extract_all_links(links_to_scrape, args.u, usr_features_to_scrape)
+    extract_all_links(links_to_scrape, args.w, usr_features_to_scrape)
 
 
 # Now scraping begins for every url

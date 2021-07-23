@@ -25,6 +25,7 @@
 > 6. Tilt
 > 7. outdoor
 > 8. channels-2
+> 9. mount wall
 
 
 ## Dependencies
@@ -40,3 +41,14 @@ $ . venv/bin/activate
 $ (venv) pip install -r Requirements.txt
  
 ```
+**Running the app on terminal**
+
+```
+$ python3 camera_webscraping
+
+```
+It will show a list of features that are enabled by default. 
+
+Deselect what is not needed and press **Done**.
+
+It processes the link from ecommerce site, for home security cameras and displays the cameras to buy on terminal and csv file camera_list.csv

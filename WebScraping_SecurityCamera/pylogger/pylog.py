@@ -14,8 +14,8 @@ def get_console_handler():
 
 
 def get_file_handler():
-    if os.path.exists(LOG_FILE):    # When you re-run the app, the existing log must be removed
-        os.remove(LOG_FILE)
+#    if os.path.exists(LOG_FILE):    # MOve this to start of the app, to cleanup an log files
+#        os.remove(LOG_FILE)
     file_handler = TimedRotatingFileHandler(LOG_FILE, when='midnight')
     file_handler.setFormatter(FORMATTER)
     file_handler.mode = 'a'   # append
